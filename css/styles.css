@@ -248,7 +248,7 @@ body {
 }
 
 .hero-title {
-    width: 496px;
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -259,6 +259,11 @@ body {
 }
 
 .hero-btn {
+    display: block;
+    min-width: 169px;
+    height: 59px;
+    border: none;
+    border-radius: 4px;
     padding: 16px 32px;
     font-family: inherit;
     font-style: normal;
@@ -271,7 +276,8 @@ body {
     cursor: pointer;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
     background-color: #404BBF;
 }
 
@@ -281,6 +287,19 @@ body {
 .about {
     padding-top: var(--main-bottom);
     padding-bottom: var(--main-bottom);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .about-list {
