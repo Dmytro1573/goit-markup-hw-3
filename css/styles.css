@@ -185,6 +185,10 @@ body {
 /* /Buttons */
 
 /* ---------------Images--------------- */
+.portfolio {
+    padding: 120px 0
+}
+
 .images-border {
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
@@ -198,6 +202,7 @@ body {
     list-style: none;
     gap: var(--margin-portfolio)
 }
+
 
 .list-title {
     font-weight: 500;
@@ -356,7 +361,7 @@ body {
 
 /* ----------------Our team------------- */
 .team {
-    padding: 120px 156px;
+    padding: 120px 0;
     background-color: #F4F4FD;
 }
 
@@ -377,7 +382,12 @@ body {
 }
 
 .list-item {
+    border-radius: 0px 0px 4px 4px;
     background-color: #fff;
+}
+
+.team-item {
+    padding: 32px 0;
 }
 
 .team-title {
@@ -397,6 +407,7 @@ body {
 }
 
 /* /Our team */
+
 
 
 /* /Studio */
