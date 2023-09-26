@@ -205,7 +205,9 @@ body {
     border-top: none;
 }
 
-
+.images-item {
+    margin-bottom: 8px;
+}
 
 .portfolio-title-item {
     font-weight: 500;
@@ -226,9 +228,6 @@ body {
     row-gap: 48px;
 }
 
-.images-item {
-    margin-bottom: 8px;
-}
 
 .list-subtitle {
     color: var(--secondary-title-color);
