@@ -393,18 +393,6 @@ body {
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
-    margin-bottom: 8px;
-}
-
-
-
-.images-list {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    gap: var(--margin-portfolio);
-    row-gap: 48px;
-    margin-bottom: 8px;
 }
 
 .portfolio-title-item {
@@ -417,9 +405,18 @@ body {
     margin-bottom: 8px;
 }
 
+.images-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: var(--margin-portfolio);
+    row-gap: 48px;
+}
+
+
+
 .list-subtitle {
     color: var(--secondary-title-color);
-    margin-bottom: 8px;
 }
 
 /* /images */
