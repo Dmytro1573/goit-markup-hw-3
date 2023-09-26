@@ -261,7 +261,7 @@ body {
 .hero-btn {
     display: block;
     min-width: 169px;
-    height: 59px;
+    height: 56px;
     border: none;
     border-radius: 4px;
     padding: 16px 32px;
@@ -329,7 +329,12 @@ body {
 
 /* --------------What are we doing-------------- */
 .doing {
-    padding-bottom: var(--main-bottom);
+    padding: 120px 0;
+}
+
+.doing-images {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .doing-title {
