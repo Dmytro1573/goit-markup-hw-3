@@ -226,6 +226,10 @@ body {
     row-gap: 48px;
 }
 
+.images-item {
+    margin-bottom: 8px;
+}
+
 .list-subtitle {
     color: var(--secondary-title-color);
 }
