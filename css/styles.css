@@ -230,7 +230,7 @@ body {
 }
 
 .hero-btn {
-    display: block;
+    display: inline-block;
     min-width: 169px;
     height: 56px;
     border: none;
