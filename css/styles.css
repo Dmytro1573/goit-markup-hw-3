@@ -214,12 +214,13 @@ body {
 
 
 .list-title {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-title-portfolio-color);
-    margin-bottom: 8px;
+
 }
 
 .list-subtitle {
