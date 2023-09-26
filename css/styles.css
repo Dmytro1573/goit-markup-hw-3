@@ -203,7 +203,7 @@ body {
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
-    margin-bottom: 8px;
+
 }
 
 .list-title-portfolio {
@@ -212,6 +212,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-title-portfolio-color);
+    margin-bottom: 8px;
 }
 
 .images-list {
