@@ -60,8 +60,8 @@ body {
 }
 
 .logo-link-footer {
-    display: block;
-    margin-bottom: 18px;
+    display: inline-block;
+    margin-bottom: 16px;
     color: #F4F4FD;
 }
 
@@ -208,7 +208,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    gap: var(--margin-portfolio)
+    gap: var(--margin-portfolio);
+    row-gap: 48px;
 }
 
 
@@ -218,7 +219,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-title-portfolio-color);
-    margin-bottom: 8px
+    margin-bottom: 8px;
 }
 
 .list-subtitle {
@@ -384,9 +385,8 @@ body {
 
 .team-list {
     display: flex;
-    gap: 24px;
-    row-gap: 48px;
     list-style: none;
+    gap: 24px;
 }
 
 .list-item {
