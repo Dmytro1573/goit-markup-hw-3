@@ -205,12 +205,14 @@ body {
     border-top: none;
 }
 
-.list-title-portfolio {
+
+
+.portfolio-title-item {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--main-title-portfolio-color);
+    color: #2E2F42;
     margin-bottom: 8px;
 }
 
