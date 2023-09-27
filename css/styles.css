@@ -139,7 +139,8 @@ body {
     text-decoration: none;
 }
 
-.address-list-item:hover {
+.address-list-item:hover,
+.address-list-item:focus {
     color: #404BBF;
 }
 
@@ -210,7 +211,8 @@ body {
     padding-bottom: 188px;
     text-align: center;
     background-color: var(--main-title-portfolio-color);
-
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hero-content {
@@ -245,7 +247,10 @@ body {
     background-color: #4D5AE5;
     color: #fff;
     cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
 }
+
 
 .hero-btn:hover,
 .hero-btn:focus {
